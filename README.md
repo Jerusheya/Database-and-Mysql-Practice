@@ -72,7 +72,7 @@ ALTER TABLE table_name ADD column_name datatype [FIRST|AFTER column_name];
 
 ![add_column](https://user-images.githubusercontent.com/93571037/153637595-839b4171-e451-4177-a5f3-ba076ea88b02.png)
 
-#### * adding multiple columns;
+#### * adding multiple columns:
 
 ```syntax
 ALTER TABLE table_name 
@@ -135,19 +135,56 @@ DELETE FROM table_name WHERE condition;
 
 ![delete_data](https://user-images.githubusercontent.com/93571037/153644757-df24c6d8-9448-4908-ab96-60ddb94a5633.png)
 
-### 12.
+### 12. Select
+#### Selecting complete data from a table:
+
+```syntax
+SELECT * FROM table_name;
+```
+
+![select_*](https://user-images.githubusercontent.com/93571037/153699399-fb16e5a7-0500-4371-ac41-3e465767ff07.png)
+
+#### Selecting a particular data from a table:
+
+```syntax
+SELECT column_name FROM table_name WHERE condition;
+```
+
+![select_particular](https://user-images.githubusercontent.com/93571037/153699469-2de13281-4c78-4b0b-8423-72869dba838c.png)
 
 
+### 14.Aggregate FUnctions:
 
+#### * sum:
 
+##### sum(all):
 
+```syntax
+SELECT SUM(column_name) FROM  table_name;
+```
 
+![sum (1)](https://user-images.githubusercontent.com/93571037/153700568-3240856a-9212-4f3a-9855-9d77bb4e151d.png)
 
+##### sum with where;
 
+```syntax
+SELECT SUM(column_name) FROM table_name WHERE condition;
+```
 
+![sum_where](https://user-images.githubusercontent.com/93571037/153703253-4fa94cea-1c5b-4466-8837-f6c91ed682a5.png)
 
+##### sum with having:
 
+```syntax
+SELECT SUM(column_name) FROM table_name HAVING sum(column_name)=>5;
+```
 
+![sum_having](https://user-images.githubusercontent.com/93571037/153704172-04498016-084e-43ac-a047-ba97f357dbba.png)
 
+##### sum with Group BY:
 
+```syntax
+SELECT SUM(column_name) FROM table_name GROUP BY column_name;
+```
 
+![sum_groupby](https://user-images.githubusercontent.com/93571037/153704270-c8fe121a-8c7c-4e2f-9563-2ee1de16fb53.png)
