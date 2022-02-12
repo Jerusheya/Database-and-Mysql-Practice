@@ -188,3 +188,53 @@ SELECT SUM(column_name) FROM table_name GROUP BY column_name;
 ```
 
 ![sum_groupby](https://user-images.githubusercontent.com/93571037/153704270-c8fe121a-8c7c-4e2f-9563-2ee1de16fb53.png)
+
+
+#### * Average
+
+```syntax
+SELECT AVG(column_name) FROM table_name;
+```
+
+![avg](https://user-images.githubusercontent.com/93571037/153720776-5a1cf979-06fc-4a69-9dff-9c50bf3751ea.png)
+
+#### * Maximum
+
+```syntax
+SELECT MAX(column_name) FROM table_name;
+```
+
+![max](https://user-images.githubusercontent.com/93571037/153720824-0c591524-e38c-47a9-8e8a-701c6d7a093b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
