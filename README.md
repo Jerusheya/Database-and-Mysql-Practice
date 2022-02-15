@@ -206,14 +206,38 @@ SELECT MAX(column_name) FROM table_name;
 
 ![max](https://user-images.githubusercontent.com/93571037/153720824-0c591524-e38c-47a9-8e8a-701c6d7a093b.png)
 
+#### * Minimum 
+
+```syntax
+SELECT MIN(column_name) FROM table_name;
+```
+
+![min()](https://user-images.githubusercontent.com/93571037/154108721-e7563570-94e8-4226-91b1-ae54e1df7335.png)
+
+#### * COUNT 
+
+```syntax 
+SELECT COUNT(*/column_name) FROM table_name conditon(if needed);
+```
+
+![count*](https://user-images.githubusercontent.com/93571037/154109208-0a6e481c-d7f4-44f9-a7f2-7e31d081e95d.png)
+
+#### * Distinct
+
+```syntax
+SELECT DISNTICT column_name FROM table_name;
+```
+
+![distinct](https://user-images.githubusercontent.com/93571037/154109374-856d146e-bcb0-4a1e-9117-79c005cfcbc3.png)
 
 
+### 15. JOINS
 
+#### * INNER JOIN:
 
-
-
-
-
+```syntax 
+SELECT <select_list> FROM table1 INNER JOIN table2 ON condition;
+```
 
 
 
