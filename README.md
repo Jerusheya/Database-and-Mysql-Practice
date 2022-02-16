@@ -5,8 +5,8 @@
 ```syntax
 SHOW DATABASES;
 ```
-|Database
-|:-----|
+|Database            |
+|:-------------------|
 | information_schema |
 | mysql              |
 | performance_schema |
@@ -25,8 +25,8 @@ CREATE DATABASE fwsa_batch2;
 SHOW DATABASES;
 ```
 
-|Database
-|:-----|
+|Database            |
+|:-------------------|
 | information_schema |
 |fwsa_batch2         |
 | mysql              |
@@ -58,8 +58,8 @@ USE fwsa_batch2;
 SHOW TABLES;
 ```
 | fwsa_batch2          |
-|:----|
-| StudentsList           |
+|:---------------------|
+| StudentsList         |
 
 ###### 1 row in set (0.01 sec)
 * * *
